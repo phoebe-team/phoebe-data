@@ -1,5 +1,5 @@
 
-     Program PW2WANNIER v.6.6 starts on  2Nov2020 at 16:10:24 
+     Program PW2WANNIER v.6.6 starts on  2Jun2021 at 12:56:41 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -152,14 +152,14 @@
   ------------
 
 
-     init_pw2wan  :      0.32s CPU      0.34s WALL (       1 calls)
-     compute_amn  :     10.93s CPU     10.94s WALL (       1 calls)
-     compute_mmn  :      2.04s CPU      2.21s WALL (       1 calls)
+     init_pw2wan  :      0.38s CPU      0.42s WALL (       1 calls)
+     compute_amn  :     11.84s CPU     11.89s WALL (       1 calls)
+     compute_mmn  :      2.07s CPU      2.23s WALL (       1 calls)
 
-     PW2WANNIER   :     13.31s CPU     13.49s WALL
+     PW2WANNIER   :     14.29s CPU     14.55s WALL
 
 
-   This run was terminated on:  16:10:37   2Nov2020            
+   This run was terminated on:  12:56:55   2Jun2021            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
