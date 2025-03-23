@@ -1,4 +1,4 @@
-# Phoebe
+# Phoebe Code Test Data 
 ![Build and Test](https://github.com/phoebe-team/phoebe/actions/workflows/buildandtest_push.yaml/badge.svg)
 
 This is an auxiliary repository to store data for the test suite of the Phoebe code. 
