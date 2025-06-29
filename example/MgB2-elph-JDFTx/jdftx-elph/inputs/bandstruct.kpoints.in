@@ -1,0 +1,13 @@
+#Save the following to bandstruct.kpoints.in
+kpoint   0.0000   0.0000   0.0000   Gamma
+kpoint   0.3333   0.3333   0.0000   K
+kpoint   0.5000   0.0000   0.0000   M
+kpoint   0.0000   0.0000   0.0000   Gamma
+kpoint   0.0000   0.0000   0.5000    A
+kpoint   0.3333   0.3333   0.5000    H
+kpoint   0.5000   0.0000   0.5000    L
+kpoint   0.0000   0.0000   0.5000    A
+#kpoint   0.5000   0.0000   0.5000    L
+#kpoint   0.5000   0.0000   0.0000    M
+#kpoint   0.3333   0.3333   0.0000    K
+#kpoint   0.3333   0.3333   0.5000    H

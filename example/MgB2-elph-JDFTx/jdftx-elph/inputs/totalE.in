@@ -1,0 +1,13 @@
+include common.in
+
+kpoint-folding 8 8 6
+
+dump End BandEigs State Vscloc IonicPositions ElecDensity Lattice eigStats
+dump Init Symmetries
+dump-name totalE.$VAR
+
+elec-smearing Fermi 0.01
+
+electronic-SCF energyDiffThreshold 1e-9
+#lattice-minimize nIterations 30 #dirUpdateScheme FletcherReeves
+

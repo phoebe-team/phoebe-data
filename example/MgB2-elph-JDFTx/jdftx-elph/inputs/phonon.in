@@ -1,0 +1,7 @@
+include totalE.in
+
+initial-state totalE.$VAR
+dump-only
+
+phonon dr 0.1 supercell 4 4 3 ${phononParams}
+

@@ -1,0 +1,35 @@
+include totalE.in 
+ 
+wannier \ 
+	 innerWindow -0.14  0.66 \ 
+ 	 outerWindow -0.14  0.85 \ 
+         loadRotations yes \
+         phononSupercell 4 4 3 \ 
+ 	 saveMomenta yes 
+
+#input file generated from wanGen.py 
+ 
+wannier-center Gaussian 0.0144246  -0.009236  -0.092406  
+wannier-center Gaussian 0.2904552  -0.314757  0.2860404  
+wannier-center Gaussian 0.1072555  -0.013086  -0.337165  
+wannier-center Gaussian 0.1531347  0.4153695  0.3106451  
+wannier-center Gaussian 0.2282887  0.4079527  -0.184577  
+wannier-center Gaussian 0.0318342  -0.298314  0.4432192  
+wannier-center Gaussian 0.2947517  -0.264100  -0.215605  
+wannier-center Gaussian 0.3278699  0.3477509  0.2956600  
+
+#wannier-center Gaussian -0.002667  0.2685253  -0.153839  
+#wannier-center Gaussian -0.185425  0.0878305  0.2895235  
+#wannier-center Gaussian -0.299739  0.3457457  0.3830428  
+#wannier-center Gaussian -0.133793  0.2049930  -0.269470  
+#wannier-center Gaussian 0.0851641  -0.305197  -0.441451  
+#wannier-center Gaussian 0.3308598  -0.245567  -0.252446  
+#wannier-center Gaussian 0.2251598  -0.033531  -0.458040  
+#wannier-center Gaussian 0.0512903  0.0708904  0.2900808  
+#wannier-center Gaussian 0.1861754  -0.124934  -0.343876  
+#wannier-center Gaussian -0.279785  -0.297362  -0.331321  
+
+ 
+wannier-initial-state totalE.$VAR
+wannier-dump-name wannier.$VAR
+wannier-minimize nIterations 30000

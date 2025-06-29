@@ -1,0 +1,11 @@
+include mgb2.ionpos
+include mgb2.lattice
+
+ion-species GBRV/$ID_pbe.uspp
+
+converge-empty-states yes
+elec-n-bands 22
+
+elec-cutoff 30 120
+elec-ex-corr gga-PBE
+

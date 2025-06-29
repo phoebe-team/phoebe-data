@@ -1,0 +1,8 @@
+include common.in
+include bandstruct.kpoints
+
+dump-name bandstruct.$VAR
+dump End BandEigs
+
+fix-electron-potential totalE.$VAR
+
